@@ -62,13 +62,13 @@ Observations from the plot can help investors understand the historical performa
 
 
 ```{r}
-adf_test_ebay = adf.test(PFE_price)
-adf_test_ebay
+adf_test = adf.test(PFE_price)
+adf_test
 ```
 
 ```{r}
-adf_test_ebay_ret = adf.test(EBAY_return)
-adf_test_ebay_ret
+adf_test_ret = adf.test(PFE_return)
+adf_test_ret
 
 ```
 
